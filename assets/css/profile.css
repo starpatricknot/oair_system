@@ -1,0 +1,23 @@
+.tabs-verical .nav-link {
+    border-right: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.tabs-verical .navbar-default .navbar-text {
+    color: #ffffff;
+}
+
+.tabs-verical .nav-tabs>li.active>a,
+.tabs-verical .nav-tabs>.profile-posts li.active>a:focus,
+.tabs-verical .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-color: transparent;
+}
+
+.nav-pills {
+    margin-top: -6vh;
+}

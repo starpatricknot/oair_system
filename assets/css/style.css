@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-custom-img{
+    background-image: url('../../img/bg-img.jpg');
+    background-size: cover;
+}
+
+.bg-custom-color{
+    background: #84decd;
+}
+
+.logo{
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 90px;
+    margin-top: -10px;
+}
+.navigation a{
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.navigation a:hover, 
+.navigation a.active {
+    background: #359381;
+    color: white;
+}
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+
+}
+.parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec {
+    position: relative;
+    background: #003329;
+}
+.ab{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.sec h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+.ab img{
+    border-radius: 50%;
+}
+.ab img:hover{
+    box-shadow: 0 0 30px white;
+    transition: 0.3s;
+}
+.sec p{
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+}
+.images img{
+    margin-left: 50px;
+    padding-left: 30px;
+}
+.images img:hover{
+    box-shadow: 0 0 30px white;
+    transition: 0.5s;
+}
+.button {
+    width: 100%;
+    text-align: center;
+}
+.button a{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: none; 
+    background: #359381;
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+.button a:hover {
+    color: #359381;
+    background-color: white;
+    transition: 1s;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+.title h1{
+    color: black;
+    font-size: 40px;
+}
+.title h1:hover{
+    color: aquamarine;
+    transition: 0.5s;
+}
+.image{
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.image img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 250px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+.image img:hover{
+    box-shadow: 0px 0px 10px 10px #321E1E;
+    transition: 0.5s;
+}
+.artist{
+    display: flex;
+    width: 100%;
+    text-align: center;
+
+}
+.artist p{
+    color: black;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+.artist p:hover{
+    color: #003329;
+    transition: 0.2s;
+}
+
+.sec p{
+    font-size: 19px;
+}
+
+
+/* Profile Page */
+
+
+/* For index.php user friendly*/
+@media (max-width: 768px) {
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+    .navigation a {
+        display: block;
+        margin: 10px 0;
+    }
+    .parallax {
+        height: 200px;
+    }
+    #text {
+        font-size: 24px;
+    }
+    .ab img {
+        width: 200px;
+        height: auto;
+    }
+    .ab h2 {
+        font-size: 20px;
+    }
+    .sec p {
+        font-size: 14px;
+    }
+    .images img {
+        width: 150px;
+        height: auto;
+    }
+    
+}
+
+
+
+/*Developers page*/
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .title h1 {
+        font-size: 24px;
+    }
+}
+
+
+
