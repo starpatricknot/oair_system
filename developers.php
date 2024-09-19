@@ -46,15 +46,15 @@
                     <div class="card bg-light h-100 shadow-lg">
                         <div class="card-body">
                             <div class="mb-3">
-                                <img src="img/jm.jpg" class="img rounded-circle w-75 mx-auto d-block my-4" alt="">
+                                <img src="img/a1.jpg" class="img rounded-circle w-75 mx-auto d-block my-4" alt="">
                             </div>
-                            <h3 class="card-title text-center mb-3 text-dark">John Mark G. Pagkaliwangan</h3>
+                            <h3 class="card-title text-center mb-3 text-dark">Paolo Bachicha</h3>
                             <h5 class="mb-3 text-center text-info">Back-end Developer</h5>
                             <p class="text-center fs-5">
                                 <br><span>BS Information Technology Student
-                                    <br>Major in Service Management Program (SMP)</span>
-                                <br><span>San Antonio, Quezon</span>
-                                <br><span>Phone: 09605760242</span>
+                                    <br>Web and Mobile Application Development (WMAD)</span>
+                                <br><span>Calauan, Laguna</span>
+                                <br><span>Phone: 09568142192</span>
                             </p>
                             <div class="text-center mt-5">
                                 <a href="#"><i class="fa-brands fa-facebook-f fs-3"></i></a>
@@ -69,14 +69,14 @@
                     <div class="card bg-light h-100 shadow-lg">
                         <div class="card-body">
                             <div class="mb-3">
-                                <img src="img/jude.jpg" class="img rounded-circle w-75 mx-auto d-block my-4" alt="">
+                                <img src="img/a3.jpg" class="img rounded-circle w-75 mx-auto d-block my-4" alt="">
                             </div>
-                            <h3 class="card-title text-center mb-3 text-dark">Jude L. Ulan</h3>
+                            <h3 class="card-title text-center mb-3 text-dark">Josef Gabriel Liu</h3>
                             <h5 class="mb-3 text-center text-info">Project Manager</h5>
                             <p class="text-center fs-5">
                                 <br><span>BS Information Technology Student
-                                    <br>Major in Service Management Program (SMP)</span>
-                                <br><span>San Antonio, Quezon</span>
+                                    <br>Web and Mobile Application Development (WMAD)</span>
+                                <br><span>Alaminos, San Pablo City</span>
                                 <br><span>Phone: 09605760242</span>
                             </p>
                             <div class="text-center mt-5">
@@ -92,15 +92,15 @@
                     <div class="card bg-light h-100 shadow-lg">
                         <div class="card-body">
                             <div class="mb-3">
-                                <img src="img/dante.jpg" class="img rounded-circle w-75 mx-auto d-block my-4" alt="">
+                                <img src="img/a2.jpg" class="img rounded-circle w-75 mx-auto d-block my-4" alt="">
                             </div>
-                            <h4 class="card-title mb-3 text-center text-dark">Dante C. Nicdao Jr.</h4>
+                            <h4 class="card-title mb-3 text-center text-dark">James Roland Angeles</h4>
                             <h5 class="mb-3 text-center text-info">Front-end Developer</h5>
                             <p class="text-center fs-5">
                                 <br><span>BS Information Technology Student
-                                    <br>Major in Service Management Program (SMP)</span>
-                                <br><span>San Pablo City, Laguna</span>
-                                <br><span>Phone: 09605760242</span>
+                                    <br>Web and Mobile Application Development (WMAD)</span>
+                                <br><span>Calauan, Laguna</span>
+                                <br><span>Phone: 09265082012</span>
                             </p>
                             <div class="text-center mt-5">
                                 <a href="#"><i class="fa-brands fa-facebook-f fs-3"></i></a>

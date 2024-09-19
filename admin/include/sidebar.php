@@ -69,6 +69,7 @@ $admin_row = mysqli_fetch_assoc($admin_query);
           <span class="sidebar-normal"> Users List </span>
         </a>
       </li>
+
       <?php if ($admin_row['role'] == "superadmin") {
         echo '<li class="nav-item ">
                 <a class="nav-link" href="admin_list.php">
